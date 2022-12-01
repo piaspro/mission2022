@@ -1,0 +1,75 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.view {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+.first-img img {
+  width: 390px;
+  height: 500px;
+  display: block;
+  margin-left: 190px;
+}
+.first-img {
+  width: 60%;
+}
+.left-sec {
+  width: 40%;
+  margin-top: 120px;
+}
+.left-sec h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 55px;
+  font-weight: bolder;
+  padding-left: 5px;
+  margin-top: auto;
+}
+.half-width p {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(96, 95, 95);
+}
+.color {
+  color: #ffad5a;
+}
+.border {
+  width: 1px; /* Line width */
+  background-color: black; /* Line color */
+  height: 100%; /* Override in-line if you want specific height. */
+  float: left;
+}
+.explore-button {
+  background-image: linear-gradient(to bottom right, #cd6161, #ff5959);
+  border: none;
+  border-radius: 5px;
+  width: 135px;
+  height: 45px;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.sec-2 img {
+  height: 160px;
+  width: 160px;
+}
+.mission {
+  background-color: #edf5f6;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+}
+.vission {
+  background-color: #ffeeee;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+}
+.goals {
+  background-color: #fff4d6;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+}
