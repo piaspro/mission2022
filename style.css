@@ -18,6 +18,7 @@ body {
 .left-sec {
   width: 40%;
   margin-top: 120px;
+  margin-left: 40px;
 }
 .left-sec h2 {
   font-family: "Times New Roman", Times, serif;
@@ -55,6 +56,11 @@ body {
   height: 160px;
   width: 160px;
 }
+.sec-2 h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bolder;
+}
 .mission {
   background-color: #edf5f6;
   border-radius: 15px;
@@ -72,4 +78,93 @@ body {
   border-radius: 15px;
   padding: 10px;
   margin: 20px;
+}
+.third-img img {
+  height: 400px;
+  width: 400px;
+  margin-left: 30px;
+}
+.third-img {
+  width: 40%;
+}
+.read-button {
+  background-image: linear-gradient(to bottom right, #cd6161, #ff5959);
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 45px;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.right-sec {
+  padding: 20px;
+  width: 60%;
+}
+.right-sec h2 {
+  font-size: 55px;
+  font-weight: bolder;
+  margin-top: auto;
+}
+.sec-3 {
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: 20px;
+  background-size: 200px;
+}
+.sec-4 {
+  background-image: url(./images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-x: 1200px;
+  background-position-y: 360px;
+  background-size: 200px;
+}
+.corona-text {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.fifth-img img {
+  height: 620px;
+  width: 350px;
+  margin-left: 150px;
+}
+.fifth-img {
+  width: 50%;
+}
+.fifth-sec {
+  margin-top: 70px;
+  padding: 20px;
+  width: 50%;
+}
+.fifth-sec h2 {
+  font-size: 55px;
+  font-weight: bolder;
+  margin-top: auto;
+}
+.sec-5 {
+  background-image: url(./images/shapes/shape-3.png),
+    url(./images/shapes/shape-2.png), url(./images/shapes/shape-8.png);
+  background-repeat: no-repeat;
+  background-position: 220px 600px, 220px 70px, 500px 400px;
+  background-size: 100px, 120px, 100px;
+}
+.container {
+  background-color: black;
+  height: 200px;
+}
+.container h1 {
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia;
+}
+.container p {
+  color: gray;
+  text-align: center;
+}
+.container span {
+  color: red;
 }
